@@ -1,0 +1,900 @@
+<!doctype html>
+<html lang="vn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+    <!-- NavigationBar -->
+    <nav class="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/SSour.svg" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Trang chủ</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">Về chúng tôi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#menu">Thực đơn</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Tin nổi bật</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Tin tức</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#reservation">Đặt bàn</a>
+                    </li>
+                </ul>
+                <a href="#" class="btn btn-brand"> Đặt hàng online </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Slider đầu trang -->
+    <div id="Slider_trang_chủ" class="carousel slide">
+        <div class="carousel-inner">
+
+            <div class="carousel-item text-center bg-cover vh-100 active slide-1">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">Chào mừng đến với SSour</h6>
+                            <h1 class="display-1 fw-bold text-white">Thực phẩm thượng hạng</h1>
+                            <a href="#" class="btn btn-brand">Đặt bàn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item text-center bg-cover vh-100 slide-2">
+                <div class="container h-100 d-flex align-items-center justify-content-center">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                            <h6 class="text-white">Chào mừng đến với SSour</h6>
+                            <h1 class="display-1 fw-bold text-white">Tươi mới & Ngon miệng</h1>
+                            <a href="#" class="btn btn-brand">Đặt bàn</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#Slider_trang_chủ" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#Slider_trang_chủ" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- Về chúng tôi -->
+    <section id="về_chúng_tôi">
+        <div class="container">
+            <div class="row gy-5 align-items-center">
+                <div class="col-lg-5">
+                    <img src="./assets/images/cover3.jpg" alt="">
+                </div>
+                <div class="col-lg-5">
+                    <h1>Về chúng tôi</h1>
+                    <div class="divider my-4"></div>
+                    <p>Chào mừng bạn đến với SSour – nơi ẩm thực được kết hợp giữa truyền thống và sáng tạo. Được thành
+                        lập với niềm đam mê ẩm thực tinh tế, SSour không chỉ mang đến những món ăn ngon miệng mà còn là
+                        một trải nghiệm ẩm thực độc đáo. Chúng tôi tự hào về việc sử dụng những nguyên liệu tươi ngon
+                        nhất, chế biến bởi đội ngũ đầu bếp chuyên nghiệp, nhằm tạo ra những món ăn không chỉ đậm đà
+                        hương vị mà còn giàu giá trị dinh dưỡng.</p>
+                    <p>Mỗi bữa ăn tại SSour là một hành trình khám phá văn hóa ẩm thực mới, mang đậm dấu ấn sáng tạo và
+                        sự tận tâm trong từng món ăn. Hãy ghé thăm và cùng chúng tôi trải nghiệm sự khác biệt tại SSour
+                        – nơi mỗi bữa ăn là một kỷ niệm đáng nhớ!</p>
+                    <a href="#" class="btn btn-brand">Khám phá Thực đơn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Thực đơn -->
+    <section id="menu" class="bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1>Khám phá Thực đơn của chúng tôi</h1>
+                    <p>Thực đơn tại SSour mang đến sự đa dạng và tinh tế, từ những món ăn truyền thống đến các sáng tạo
+                        mới lạ. Mỗi món đều được chế biến tỉ mỉ với nguyên liệu tươi ngon, hứa hẹn mang đến cho bạn
+                        những trải nghiệm ẩm thực đầy thú vị.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <ul class="nav nav-pills mb-4 justify-content-center" id="pills-tab" role="tablist">
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all"
+                        type="button" role="tab" aria-controls="pills-all" aria-selected="true">Tất cả</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-appetizer-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-appetizer" type="button" role="tab" aria-controls="pills-appetizer"
+                        aria-selected="true">Khai vị</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-main_dishes-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-main_dishes" type="button" role="tab" aria-controls="pills-main_dishes"
+                        aria-selected="true">Món chính</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="pills-dessert-tab" data-bs-toggle="pill"
+                        data-bs-target="#pills-dessert" type="button" role="tab" aria-controls="pills-dessert"
+                        aria-selected="true">Tráng miệng</button>
+                </li>
+
+            </ul>
+
+            <div class="tab-content" id="pills-tabContent">
+
+                <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab"
+                    tabindex="0">
+
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/m6.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Bò Wellington</a></h5>
+                                    <p class="small">Thịt bò tenderloin mềm mại được bao bọc bởi pate gan béo ngậy và
+                                        nấm tươi thơm phức, tất cả được bọc trong lớp bánh puff giòn tan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/ap4.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Súp Bí đỏ</a></h5>
+                                    <p class="small">Bí đỏ mịn màng, kết hợp với kem béo ngậy và gia vị tinh tế, tạo nên
+                                        món súp ấm áp và thơm ngon.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/m2.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Cá Thu áp chảo</a></h5>
+                                    <p class="small">Cá thu tươi áp chảo vàng ươm, giữ trọn vị ngọt tự nhiên, kết hợp
+                                        với gia vị nhẹ nhàng, mang đến hương vị tinh tế và thanh mát.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/d2.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Bánh Quả mầm</a></h5>
+                                    <p class="small">Bánh mềm thơm, kết hợp tinh tế giữa vị ngọt nhẹ của trái cây và lớp
+                                        bột mềm mịn, mang đến trải nghiệm ẩm thực thanh nhã và hấp dẫn.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/ap3.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Trứng hấp gan ngỗng</a></h5>
+                                    <p class="small">Trứng hấp mịn màng kết hợp với gan ngỗng béo ngậy, mang đến hương
+                                        vị đậm đà và sự sang trọng trong từng miếng ăn.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/ap7.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Salad Burrata</a></h5>
+                                    <p class="small">Kết hợp giữa phô mai burrata kem mềm, rau xanh tươi mát và cà chua
+                                        chín mọng, tạo nên một món salad thanh nhẹ, thơm ngon và đầy sức sống.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/d4.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Gelato Hạnh nhân</a></h5>
+                                    <p class="small">Gelato mịn màng, ngọt ngào hương vị hạnh nhân tự nhiên, mang đến
+                                        cảm giác mát lạnh và sự tinh tế trong từng muỗng ăn.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/m1.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Cá chiên kiểu Thái</a></h5>
+                                    <p class="small">Cá tươi chiên giòn, ăn kèm sốt chua cay đặc trưng của Thái, mang
+                                        đến hương vị đậm đà và cân bằng hoàn hảo giữa các vị chua, cay, và ngọt.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="tab-pane fade show" id="pills-appetizer" role="tabpanel"
+                    aria-labelledby="pills-appetizer-tab" tabindex="0">
+                    <div class="row gy-4">
+
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/ap3.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Trứng hấp gan ngỗng</a></h5>
+                                    <p class="small">Trứng hấp mịn màng kết hợp với gan ngỗng béo ngậy, mang đến hương
+                                        vị đậm đà và sự sang trọng trong từng miếng ăn.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/ap4.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Súp bí đỏ</a></h5>
+                                    <p class="small">Bí đỏ mịn màng, kết hợp với kem béo ngậy và gia vị tinh tế, tạo nên
+                                        món súp ấm áp và thơm ngon.
+
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/ap6.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Salad Bacon</a></h5>
+                                    <p class="small">Rau xanh tươi ngon kết hợp với những miếng thịt bacon giòn tan,
+                                        thêm chút sốt nhẹ nhàng, tạo nên một món salad đầy hấp dẫn và dinh dưỡng.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/ap7.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Salad Burrata</a></h5>
+                                    <p class="small">Kết hợp giữa phô mai burrata kem mềm, rau xanh tươi mát và cà chua
+                                        chín mọng, tạo nên một món salad thanh nhẹ, thơm ngon và đầy sức sống.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-main_dishes" role="tabpanel"
+                    aria-labelledby="pills-main_dishes-tab" tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/m6.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Bò Wellington</a></h5>
+                                    <p class="small">Thịt bò tenderloin mềm mại được bao bọc bởi pate gan béo ngậy và
+                                        nấm tươi thơm phức, tất cả được bọc trong lớp bánh puff giòn tan.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/m1.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Cá chiên kiểu Thái</a></h5>
+                                    <p class="small">Cá tươi chiên giòn, ăn kèm sốt chua cay đặc trưng của Thái, mang
+                                        đến hương vị đậm đà và cân bằng hoàn hảo giữa các vị chua, cay, và ngọt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/m5.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Dê nướng BBQ</a></h5>
+                                    <p class="small">Thịt dê được ướp gia vị đậm đà, nướng trên lửa than hồng, mang đến
+                                        hương vị smoky thơm ngon và sự mềm mại trong từng miếng thịt.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/m2.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Cá Thu áp chảo</a></h5>
+                                    <p class="small">Cá thu tươi áp chảo vàng ươm, giữ trọn vị ngọt tự nhiên, kết hợp
+                                        với gia vị nhẹ nhàng, mang đến hương vị tinh tế và thanh mát.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tab-pane fade show" id="pills-dessert" role="tabpanel" aria-labelledby="pills-dessert-tab"
+                    tabindex="0">
+                    <div class="row gy-4">
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/d3.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Bánh Phô mai Dâu tằm</a></h5>
+                                    <p class="small">Bánh phô mai mềm mịn, kết hợp với hương vị chua ngọt của dâu tằm,
+                                        tạo nên món tráng miệng thơm ngon và hấp dẫn.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/d2.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Bánh quả mầm</a></h5>
+                                    <p class="small">Bánh mềm thơm, kết hợp tinh tế giữa vị ngọt nhẹ của trái cây và lớp
+                                        bột mềm mịn, mang đến trải nghiệm ẩm thực thanh nhã và hấp dẫn.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/d4.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Gelato Hạnh nhân</a></h5>
+                                    <p class="small">Gelato mịn màng, ngọt ngào hương vị hạnh nhân tự nhiên, mang đến
+                                        cảm giác mát lạnh và sự tinh tế trong từng muỗng ăn.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <div class="menu-item bg-white shadow-on-hover">
+                                <img src="./assets/images/d6.jpg" alt="">
+                                <div class="menu-item-content p-4">
+                                    <div>
+                                        <span>Đánh giá(4.5)</span>
+                                        <span class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </span>
+                                    </div>
+                                    <h5 class="mt-1 mb-2"><a href="#">Pudding hoa quả</a></h5>
+                                    <p class="small">Pudding mềm mịn, được điểm xuyết bởi các loại hoa quả tươi ngon,
+                                        mang đến sự tươi mát và vị ngọt thanh nhẹ trong từng muỗng ăn.</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+    </section>
+
+    <!-- Features-->
+    <section id="features" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Trao niềm tin-Chọn SSour</h1>
+                    <p class="text-white">Tại SSour, chúng tôi không chỉ mang đến những món ăn ngon mà còn là cả một
+                        trải nghiệm ẩm thực đầy cảm hứng. Với đội ngũ đầu bếp tài năng, nguyên liệu tươi ngon và không
+                        gian sang trọng, SSour cam kết mang lại cho bạn sự hài lòng tuyệt đối. Dù là bữa ăn hàng ngày
+                        hay những dịp đặc biệt, mỗi khoảnh khắc tại SSour đều trở thành kỷ niệm đáng nhớ. Chọn SSour,
+                        bạn đang chọn sự tinh tế, sáng tạo và chất lượng trong từng món ăn.</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-timer-flash-line"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Giao hàng nhanh</h4>
+                        <p class="text-white">Chúng tôi cam kết giao hàng nhanh chóng, đảm bảo món ăn đến tay bạn luôn
+                            nóng hổi và giữ nguyên hương vị đặc trưng</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-thumb-up-line"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Được đánh giá cao</h4>
+                        <p class="text-white">SSour được thực khách yêu thích và đánh giá cao nhờ vào sự kết hợp tuyệt
+                            vời giữa chất lượng món ăn và phong cách phục vụ.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-user-follow-line"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Nhân viên thân thiện</h4>
+                        <p class="text-white">Đội ngũ nhân viên thân thiện và chuyên nghiệp của SSour luôn sẵn sàng phục
+                            vụ, tạo cảm giác ấm áp và thoải mái cho mọi thực khách.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="feature p-4 text-center">
+                        <div class="feature-icon">
+                            <i class="ri-store-2-line"></i>
+                        </div>
+                        <h4 class="text-white mt-4 mb-2">Không gian ấm cúng</h4>
+                        <p class="text-white">Không gian nhà hàng được thiết kế tinh tế, mang đến cảm giác ấm cúng và
+                            gần gũi, hoàn hảo cho các buổi hẹn hò hoặc họp mặt gia đình.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Phản hồi của khách hàng-->
+    <section id="reviews" class="bg-cover">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 intro-text">
+                    <h1 class="text-white">Khách hàng tại SSour nói gì?</h1>
+                    <p class="text-white">Tại SSour, chúng tôi luôn tự hào khi nhận được những phản hồi tích cực từ thực
+                        khách. Không chỉ yêu thích hương vị độc đáo của từng món ăn, khách hàng còn đánh giá cao sự phục
+                        vụ tận tâm và không gian ấm cúng của nhà hàng. Mỗi ý kiến đóng góp đều là động lực để chúng tôi
+                        không ngừng cải thiện và mang đến những trải nghiệm ẩm thực tuyệt vời hơn nữa.</p>
+                </div>
+            </div>
+
+            <div id="reviewSlide" class="carousel slide">
+                <div class="carousel-indicators">
+
+                    <button type="button" data-bs-target="#reviewSlide" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#reviewSlide" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review bg-white p-5 text-center">
+                                    <div class="quote-icon"><i class="ri-chat-quote-line"></i></div>
+                                    <p class="mb-0">"SSour luôn là sự lựa chọn hàng đầu của mình khi muốn có một bữa ăn
+                                        chất lượng. Mình đặc biệt thích cách các món ăn được chế biến sáng tạo và phục
+                                        vụ tận tình."</p>
+                                    <div class="person mt-4">
+                                        <img src="./assets/images/p1.jpg" alt="">
+                                        <h4 class="mb-0 mt-2">Trần Văn Trung</h4>
+                                        <div class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="review bg-white p-5 text-center ">
+                                    <div class="quote-icon"><i class="ri-chat-quote-line"></i></div>
+                                    <p class="mb-0">"Không gian ở đây rất đẹp và yên tĩnh, thích hợp cho những buổi hẹn
+                                        hò. Món Bò Wellington là món mình ấn tượng nhất, hương vị thật sự tuyệt vời."
+                                    </p>
+                                    <div class="person mt-4">
+                                        <img src="./assets/images/p2.jpg" alt="">
+                                        <h4 class="mb-0 mt-2">Nguyễn Minh Anh</h4>
+                                        <div class="stars">
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-fill"></i>
+                                            <i class="ri-star-half-fill"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#reviewSlide" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#reviewSlide" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Đặt bàn-->
+    <section id="reservation">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 intro-text">
+                    <h1>Đặt bàn ngay</h1>
+                    <p>Đặt bàn tại SSour để thưởng thức những món ăn đặc sắc trong không gian ấm cúng. Hoàn tất đặt bàn
+                        trực tuyến một cách dễ dàng để đảm bảo chỗ ngồi cho bạn và gia đình.</p>
+                </div>
+            </div>
+            <form action="#" class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row g-3">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Họ và tên">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="email" class="form-control" placeholder="Địa chỉ Email">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Ngày đặt bàn">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" placeholder="Thời gian">
+                        </div>
+                        <div class="form-group col-md-12">
+                            <textarea name="" id="" cols="30" rows="4" class="form-control"
+                                placeholder="Ghi chú"></textarea>
+                        </div>
+                        <div class="form-group text-center col-md-12">
+                            <a href="#" class="btn btn-brand"> Gửi thông tin</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Tin tức -->
+    <section id="blog">
+        <div class="container">
+            <div class="row ">
+                <div class="col-12 intro-text">
+                    <h1>Tin tức</h1>
+                    <p>Đặt bàn tại SSour để thưởng thức những món ăn đặc sắc trong không gian ấm cúng. Hoàn tất đặt bàn
+                        trực tuyến một cách dễ dàng để đảm bảo chỗ ngồi cho bạn và gia đình.</p>
+                </div>
+            </div>
+            <div class="row gy-4">
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./assets/images/d3.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Đã đăng: 11/10/2024</p>
+                            <h4><a href="#">Công thức tạo nên món tráng miệng bất bại từ hoa quả tươi</a></h4>
+                            <p>Tại SSour, mỗi món tráng miệng được chế biến từ những loại hoa quả tươi ngon nhất, kết
+                                hợp khéo léo với các nguyên liệu tự nhiên, mang lại sự cân bằng hoàn hảo giữa hương vị
+                                ngọt ngào và tươi mát.</p>
+                            <a href="#">Đọc thêm..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./assets/images/m6.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Đã đăng: 11/10/2024</p>
+                            <h4><a href="#">Món Bò Wellington trứ danh được mang về Việt Nam</a></h4>
+                            <p>Món Bò Wellington nổi tiếng thế giới, mang theo hương vị đậm đà của thịt bò mềm mại, lớp
+                                vỏ pastry giòn tan và sốt nấm thơm ngon. Chúng tôi tự hào mang món ăn đẳng cấp này đến
+                                thực khách Việt Nam.</p>
+                            <a href="#">Đọc thêm..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./assets/images/d4.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Đã đăng: 11/10/2024</p>
+                            <h4><a href="#">Kem tươi từ Ý đã đặt chân tới SSour</a></h4>
+                            <p>Gelato hạnh nhân tại SSour mang hương vị socalo mịn màng và thanh mát kết hợp thêm một
+                                chút đắng nhẹ, với vị ngọt nhẹ và thơm bùi của hạnh nhân, tạo nên món tráng miệng hoàn
+                                hảo cho mọi thực khách.</p>
+                            <a href="#">Đọc thêm..</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="blog-post d-flex shadow-on-hover">
+                        <img src="./assets/images/ap7.jpg" alt="">
+                        <div class="blog-post-content p-4">
+                            <p>Đã đăng: 11/10/2024</p>
+                            <h4><a href="#">Món Khai vị từ phô mai Burrata béo ngậy</a></h4>
+                            <p>Tại SSour, salad Burrata kết hợp phô mai mềm mịn với rau xanh tươi mát và cà chua mọng
+                                nước, mang đến hương vị thanh nhẹ nhưng không thể thiếu sự béo ngậy đặc trưng của phô
+                                mai, đầy tinh tế từ loại phô mai trứ danh này.</p>
+                            <a href="#">Đọc thêm..</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-cover">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row gy-4">
+                    <div class="col-lg-4">
+                        <img src="./assets/images/SSour2.svg" class="mb-4" alt="">
+                        <p class="text-white">Hãy đến với SSour để khám phá hương vị độc đáo và tận hưởng những khoảnh
+                            khắc đáng nhớ cùng người thân. Chúng tôi luôn sẵn sàng chào đón bạn với không gian ấm cúng,
+                            dịch vụ chu đáo và ẩm thực tinh tế. Cảm ơn bạn đã lựa chọn SSour!</p>
+                        <div class="social-links">
+                            <a href="#"><i class="ri-facebook-circle-fill"></i></a>
+                            <a href="#"><i class="ri-instagram-fill"></i></a>
+                            <a href="#"><i class="ri-youtube-fill"></i></a>
+                            <a href="#"><i class="ri-tiktok-fill"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4 class="text-white mb-4">Liên hệ</h4>
+                        <p class="mb-1 text-white">Sđt: (+84) 1900-9999</p>
+                        <p class="mb-1 text-white">Email: SSour@google.com</p>
+                        <p class="mb-0 text-white">Địa chỉ: 31 Đường Xuân Diệu, Tây Hồ, Hà Nội</p>
+                    </div>
+                    <div class="col-lg-2">
+                        <h4 class="text-white mb-4">Giờ mở cửa</h4>
+                        <p class="mb-1 text-white">Thứ 2 - Thứ 6: 08:00am - 23:00pm</p>
+                        <p class="text-white">Thứ 7 - Chủ nhật: 09:00am - 23:30pm</p>
+                    </div>
+                    <div class="col-lg-4">
+                        <h4 class="text-white mb-4">Vị trí của chúng tôi</h4>
+                        <!-- Google Maps -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.2444483284075!2d105.82666527587311!3d21.062896786604046!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135aaf8a407c529%3A0xfba7cfd9d5b2ca36!2zMzEgxJAuIFh1w6JuIERp4buHdSwgUXXhuqNuZyBBbiwgVMOieSBI4buTLCBIw6AgTuG7mWksIFZp4buHdCBOYW0!5e0!3m2!1svi!2s!4v1728640975314!5m2!1svi!2s" width="500" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="row gy-3 justify-content-between">
+                    <div class="col-auto">
+                        <p class="mb-0 text-white">Copyrights all rights by SSour</p>
+                    </div>
+                    <div class="col-auto">
+                        <p class="mb-0 text-white">Thiết kế bởi <a href="#">SSour</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
